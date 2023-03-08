@@ -1,0 +1,150 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: var(--dark-blue-color);
+  height: 100%;
+}
+
+button {
+  float: left;
+  background: var(--green-color);
+}
+
+logo>a>img {
+  height: 75px;
+}
+
+.logo>a>strong {
+  font-family: var(--h1-font);
+  font-size: var(--h1-font-size);
+}
+
+.logo>a {
+  color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-0-5);
+  font-weight: var(--font-mini);
+}
+
+
+.inputusername{
+  width: 100%;
+  background: var(--green-color);
+  outline: none;
+  
+}
+
+.inputusername:focus,
+.inputmessage:focus{
+
+  background: var(--green-color);
+
+  
+}
+
+.inputusername:not:placeholder-shown{
+  background: var(--pas-purple);
+}
+
+.inputusername:placeholder-shown{
+  background: var(--green-color);
+}
+
+
+.inputusername::placeholder,
+.inputmessage::placeholder {
+  color: var(--light-color);
+}
+
+.inputmessage {
+  width: 80%;
+  margin-right: 3px;
+  float: left;
+  background: var(--green-color);
+}
+
+
+.messages{
+
+  height: 68vh !important;
+  overflow:auto; 
+ 
+}
+
+
+.msgcorrenteuser {
+  float: right;
+  background-color: var(--pas-purple);
+  padding: 24px;
+  width: 70%;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  color: var(--transparent-blue);
+  font-weight: var(--font-semi-bold);
+}
+
+
+.msguser {
+  float: left;
+  padding: 3px;
+  width: 70%;
+  margin-bottom: 3px;
+  border-radius: 15px;
+  background: var(--light-purple);
+  color: var(--light-color);
+  padding: 24px;
+}
+
+
+.linha1 {
+  margin-top: 0px; background-color: var(--dark-blue-color);
+  height: 75px;
+}
+
+.col-md-12{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.linha2{
+  background-image: url('../imgs/image\ 80\ \(1\).png');
+  background-position: center;
+  background-size: cover;
+  padding: 24px;
+}
+.links{
+  color: var(--light-color);
+  text-decoration: none;
+  font-family: var(--h1-font);
+  font-size: var(--h1-font-size);
+  transition: .3s ease;
+}
+
+.links:hover{
+  color: var(--light-color);
+  opacity: .5s;
+}
+
+.logostele{
+  height: 75px;
+}
+
+.divL2{
+  margin-top: 5px;
+}
+
+#audioSend{
+
+  display: none;
+}
+
+.btnEnviar{
+  background: var(--green-color) !important; 
+  color: var(--dark-blue-color);
+}

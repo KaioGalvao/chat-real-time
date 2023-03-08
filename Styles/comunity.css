@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Poppins:ital@0;1&display=swap');
+
+.logo>a>img {
+  height: 75px;
+}
+
+.logo>a>strong {
+  font-family: var(--h1-font);
+  font-size: var(--h1-font-size);
+}
+
+.logo>a {
+  color: var(--light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-0-5);
+  font-weight: var(--font-mini);
+}

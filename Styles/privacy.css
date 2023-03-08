@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Poppins:ital@0;1&display=swap');
+
+body{
+    background-image: url('../imgs/image\ 39.png');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+    padding: var(--gap-2);
+}
+
+.container{
+    background: var(--light-color);
+    display: flex;
+    flex-direction: column;
+    padding: var(--gap-2);
+    border-radius: var(--gap-2);
+}
